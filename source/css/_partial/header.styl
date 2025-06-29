@@ -48,6 +48,8 @@
       a
         margin-right: 15px
         color: $color-accent-1
+        text-decoration: none
+        border-bottom: 1px solid $color-accent-1
 
       a:hover
         underline(5px, $color-accent-1)
@@ -86,8 +88,12 @@ if $logo-grayout
 
   #header #nav
     ul
+      a
+        border-bottom: 1px solid $color-accent-1
+
       a:hover
         background: none
+        border-bottom: 2px solid $color-accent-1
 
       li
         display: none
